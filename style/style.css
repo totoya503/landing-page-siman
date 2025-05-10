@@ -26,9 +26,17 @@ body {
   
   .menu-contenido h1 {
     margin: 0;
-    white-space: nowrap;
   }
-  
+
+  @media (max-width: 436px){
+    .menu-contenido{
+      justify-content:center;
+    }
+    .iconos-menu i{
+      margin: 0rem 1rem;
+    }
+  }
+
   .barra-busqueda {
     display: flex;
     align-items: center;
@@ -76,6 +84,13 @@ body {
     text-align: center;
   }
   
+  @media (max-width: 436px) {
+    .sub-menu{
+      top: 95px;
+    }
+
+  }
+
   .sub-menu a {
     margin: 0 1rem;
     text-decoration: none;
